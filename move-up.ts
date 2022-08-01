@@ -2,7 +2,7 @@
      * reorder the list by putting the selected elements at the beginning of the list
      * @param list 
      * @param selected 
-     * @returns 
+     * @returns a new list 
      */
     moveSelectedOnTop(list: any[], selected: Array<number|string>) {
         if(!selected?.length) {
